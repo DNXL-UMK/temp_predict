@@ -1,27 +1,23 @@
 
 # Weather Temperature Prediction using LSTM
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) 
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
-
+![LSTM](https://img.shields.io/badge/LSTM-model-green?style=flat)
+![climate](https://img.shields.io/badge/climate-model-green?labelColor=yellow&style=flat)
+![Github pro](https://img.shields.io/badge/Github%20pro-model-green?labelColor=red&style=flat)
 
 ## Table of Contents
 
 - [Psychic model](#jeli-climate-prediction)
-  - [Getting started](#about-the-project)
-  - [Installation](#installation)
-  - [Roadmap](#usage)
-  - [Screenshot](#contributing)
-  - [Lessons](#license)
-  - [Screenshot](#contributing)
-  - [Known Limitation](#license)
-  - [Improvement](#contact)
-  - [Authoes](#contact)
-  - [Acknowledgement](#contact)
+  - [Lesson](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#screenshots)
+  - [Getting started](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#getting-started)
+  - [Installation](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#installation)
+  - [Roadmap](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#roadmap)
+  - [Methodology](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#methodology)
+  - [Screenshot](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#screenshots)
+  - [Known Limitation](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#known-limitation)
+  - [Future improvement](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#future-improvement)
+  - [Authoes](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#authors)
+  - [Acknowledgement](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#acknowledgements)
 
 
 ## Getting Started
@@ -70,25 +66,25 @@ For the model result, our model kind of does pretty well. It achieves a mean squ
 
 ## Roadmap
 
-![roadmap](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+![roadmap](https://github.com/DNXL-UMK/temp_predict/blob/main/assets/Psychic%20model1.png)
 
 
 
 ## Screenshots
 
-![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
-![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
-![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
-![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
-![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
-![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
-![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
-![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+
+
+![Model loss on every epoch iteration](https://github.com/DNXL-UMK/temp_predict/blob/main/assets/output.png)
+![Model prediction validation](https://github.com/DNXL-UMK/temp_predict/blob/main/assets/val.png)
+![Whole new dataset predictions](https://github.com/DNXL-UMK/temp_predict/blob/main/assets/daily.png)
+
 
 
 ## Lessons Learned
 
 Informative video about LSTM
+
+[![LSTM](https://img.youtube.com/vi/YCzL96nL7j0/0.jpg)](https://www.youtube.com/watch?v=YCzL96nL7j0)
 
 
 
@@ -109,6 +105,7 @@ Informative video about LSTM
 ## Authors
 
 - [@DNXL](https://www.github.com/DNXL-UMK)
+- [Linkedin](https://www.linkedin.com/in/muhddaniel/)
 
 📌Another project upcoming 
 ## Acknowledgements
@@ -116,4 +113,6 @@ Informative video about LSTM
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7087890.svg)](https://doi.org/10.5281/zenodo.7087890)
+ 
 
