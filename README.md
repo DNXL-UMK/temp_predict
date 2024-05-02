@@ -5,17 +5,7 @@
 ![climate](https://img.shields.io/badge/climate-model-green?labelColor=yellow&style=flat)
 ![Github pro](https://img.shields.io/badge/Github%20-pro-green?labelColor=red&style=flat)
 
-
-▓█████▄  ███▄    █ ▒██   ██▒ ██▓    
-▒██▀ ██▌ ██ ▀█   █ ▒▒ █ █ ▒░▓██▒    
-░██   █▌▓██  ▀█ ██▒░░  █   ░▒██░    
-░▓█▄   ▌▓██▒  ▐▌██▒ ░ █ █ ▒ ▒██░    
-░▒████▓ ▒██░   ▓██░▒██▒ ▒██▒░██████▒
- ▒▒▓  ▒ ░ ▒░   ▒ ▒ ▒▒ ░ ░▓ ░░ ▒░▓  ░
- ░ ▒  ▒ ░ ░░   ░ ▒░░░   ░▒ ░░ ░ ▒  ░
- ░ ░  ░    ░   ░ ░  ░    ░    ░ ░   
-   ░             ░  ░    ░      ░  ░
- ░                                  
+![bnanner](https://github.com/DNXL-UMK/temp_predict/blob/main/assets/Screenshot%202024-05-02%20230327.png)                                
                                                     
                                                     
 
