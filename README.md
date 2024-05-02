@@ -3,7 +3,7 @@
 
 ![LSTM](https://img.shields.io/badge/LSTM-model-green?style=flat)
 ![climate](https://img.shields.io/badge/climate-model-green?labelColor=yellow&style=flat)
-![Github pro](https://img.shields.io/badge/Github%20pro-green?labelColor=red&style=flat)
+![Github pro](https://img.shields.io/badge/Github%20-pro-green?labelColor=red&style=flat)
 
 ### Introduction
 This project is all about building a model that can predict daily mean climate temperatures using Long Short-Term Memory (LSTM) neural networks. The idea is to come up with a tool that can almost accurately forecast the temperature based on stuff like relative humidity, dew point, wind speed, and other weather parameters. For simplicity the prediction model given name is **Psychic** 
