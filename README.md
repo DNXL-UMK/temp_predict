@@ -10,7 +10,7 @@
                                                     
 
 ### Introduction
-This project is all about building a model that can predict daily mean climate temperatures using Long Short-Term Memory (LSTM) neural networks. The idea is to come up with a tool that can almost accurately forecast the temperature based on stuff like relative humidity, dew point, wind speed, and other weather parameters. For simplicity the prediction model given name is **Psychic** 
+This project is all about building a model that can predict daily mean climate temperatures using Long Short-Term Memory (LSTM) neural networks using 30 year worth of daily dataset form 1991 to 2021. The idea is to come up with a tool that can almost accurately forecast the temperature based on stuff like relative humidity, dew point, wind speed, and other weather parameters. For simplicity the prediction model given name is **Psychic** 
 
 Psychic documentation in the notebook comment 🎊
 
@@ -48,17 +48,26 @@ Informative video about LSTM
 ```bash
   git clone https://github.com/DNXL-UMK/temp_predict.git
 ```
+
 2. Navigate to the project directory
 ```bash
   cd temp_predict
 ```
-3. Install dependencies [❗ currently the dependencies is based on my entire libraries (including unrelated library to the project like hugging face or transformers), there's known fix but for now ❌]
+
+3. Install dependencies
+[❗ currently the dependencies is based on my entire libraries (including unrelated library to the project like hugging face or transformers), there's known fix but for now ❌]
+Try this first
 ```bash
-  pip install -r requirements.txt
+  pip install -r requirement_guess.txt
 ```
-4. Open the code in Jupyter Notebook (My environment :Vscode)
+
+4. Open and run the code in Jupyter Notebook (My environment :Vscode)
 ```bash
   code Temp_predict_mean_1991_2021.ipynb
+```
+if theres dependencies issues, use this
+```bash
+  pip install -r requirements_full.txt
 ```
 
 ### Methodology
@@ -121,10 +130,9 @@ Whole new dataset predictions
 3. The target parameter for the model is currently set as the mean value of the daily temperature. It indicates a lack of accuracy in predicting temperature on a specific date and time. The main challenge arises from noisy data or outliers that can distort the data, which can particularly affect the performance of LSTM or any neural network.
 
 ## Authors 🪪
-
+### contact
 - [@DNXL](https://www.github.com/DNXL-UMK)
 - [Linkedin](https://www.linkedin.com/in/muhddaniel/)
-- [Email](e22a0237@siswa.umk.edu.my)
 
 📌Another project upcoming 
 Genrative pre-trained transformer (GPT) or LLama scheme for UMK research uses (personal project)
@@ -136,5 +144,15 @@ Genrative pre-trained transformer (GPT) or LLama scheme for UMK research uses (p
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
  - [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7087890.svg)](https://doi.org/10.5281/zenodo.7087890)
+ - 
+ -Zippenfenig, P. (2023). Open-Meteo.com Weather API [Computer software]. Zenodo. https://doi.org/10.5281/ZENODO.7970649
 
+ -Hersbach, H., Bell, B., Berrisford, P., Biavati, G., Horányi, A., Muñoz Sabater, J., Nicolas, J., Peubey, C., Radu, R., Rozum, I., Schepers, D., Simmons, 
+  A., Soci, C., Dee, D., Thépaut, J-N. (2023). ERA5 hourly data on single levels from 1940 to present [Data set]. ECMWF. 
+  https://doi.org/10.24381/cds.adbb2d47
 
+ -Muñoz Sabater, J. (2019). ERA5-Land hourly data from 2001 to present [Data set]. ECMWF. https://doi.org/10.24381/CDS.E2161BAC
+
+ -Schimanke S., Ridal M., Le Moigne P., Berggren L., Undén P., Randriamampianina R., Andrea U., Bazile E., Bertelsen A., Brousseau P., Dahlgren P., 
+  Edvinsson L., El Said A., Glinton M., Hopsch S., Isaksson L., Mladek R., Olsson E., Verrelle A., Wang Z.Q. (2021). CERRA sub-daily regional reanalysis 
+  data for Europe on single levels from 1984 to present [Data set]. ECMWF. https://doi.org/10.24381/CDS.622A565A
