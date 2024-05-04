@@ -77,11 +77,11 @@ First things first, clean up the data so we can feed it into our model. We then 
 
 After the task is completed, we set climate parameters as our input (features) sequences, and the target parameter is the daily mean temperature for training the psychic model.
 
-Then, we use the Long Short-Term Memory (LSTM) model; this model is specifically good for tracking patterns in datasets. Our model layer scheme uses layers of 50 LSTM cells, followed by a 20% dropout, another layer of 50 neurons, and a dense output layer. We train our model using the Adam optimizer (for general purpose use and computation saving) and the Mean Squared Error (MSE) loss function.👾
+Then, we use the Long Short-Term Memory (LSTM) model; this model is specifically good for tracking patterns in datasets. Our model layer scheme uses layers of 50 LSTM cells, followed by a 20% dropout, another layer of 50 neurons, and a dense output layer. We train our model using the Adam optimizer and the Mean Squared Error (MSE) loss function.👾
 
 
 #### Model Evaluation
-To asses the model accuracy, I use some metrics from sklearn such aslike Mean Squared Error (MSE) and Mean Absolute Error (MAE) and R-squared (R2) to measure how far off its predictions are from the actual temperatures. I also plot the graph between every epoch and with 20% balance of whole dataset to better visualize the accuracy of the model. 📊
+To asses the model accuracy, I use some metrics from sklearn such Mean Squared Error (MSE) and Mean Absolute Error (MAE) and R-squared (R2) to measure how far off its predictions are from the actual temperatures. I also plot the graph between every epoch and with 20% balance of whole dataset to better visualize the accuracy of the model. 📊
 
 
 #### Results
