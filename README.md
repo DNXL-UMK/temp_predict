@@ -10,7 +10,8 @@
                                                     
 
 ### Introduction
-This project is all about building a model that can predict daily mean climate temperatures using Long Short-Term Memory (LSTM) neural networks using 30 year worth of daily dataset form 1991 to 2021. The idea is to come up with a tool that can almost accurately forecast the temperature based on stuff like relative humidity, dew point, wind speed, and other weather parameters. For simplicity the prediction model given name is **Psychic** 
+This project is all about building a model that can predict daily mean climate temperatures using Long Short-Term Memory (LSTM) neural networks using 30 year worth of daily dataset form 1991 to 2021. The idea is to come up with a tool that can almost accurately forecast the temperature based on stuff like relative humidity, dew point, wind speed, and other weather parameters. Other than testing on validation data, I also test the model on new dataset of year 2022, see the screenshot. For simplicity the prediction model given name is **Psychic** 
+
 
 Psychic documentation in the notebook comment 🎊
 
@@ -63,7 +64,7 @@ Try this first
 
 4. Open and run the code in Jupyter Notebook (My environment :Vscode)
 ```bash
-  code Temp_predict_mean_1991_2021.ipynb
+  code Preprocessing_dataset.ipynb
 ```
 if theres dependencies issues, use this
 ```bash
@@ -84,7 +85,11 @@ To asses the model accuracy, I use some metrics from sklearn such aslike Mean Sq
 
 
 #### Results
-For the model result, our model kind of does pretty well. It achieves a mean squared error on the test set of 0.2970 and a mean absolute error (MAE) of 98.33% accuracy on the test dataset. Error metrics indicate that the scaler and model tuning are good, but there's always room for improvement. Actually, before getting good results in both metrics, I take a closer look at the model tuning and various scalers to see what can be done to improve the model. Is it always a good habit to revise the whole code of the model of the model thoroughly. 📈
+For the model result, our model kind of does pretty well. It achieves a mean squared error on the test set of 0.280 and a mean absolute error (MAE) of 98.38% accuracy on the test dataset. Error metrics indicate that the scaler and model tuning are good, but there's always room for improvement. Actually, before getting achieving good results, I take a closer look at the opimizer(SGD etc) ,various scalers(RobustScaler etc), model tuning( several hundred epoch and thousands of thousands neurons iterations, rip laptop 😭) to see what can be done to improve the model. Is it always a good habit to revise the whole code. There is only 130 rows of temperature value prediction with 1 threshold value that differs with the actual value, as compared to the full rows of data which are 11293 (after subtracting 30 for the sequence length issue).📈
+
+Mean Squared Error: 0.2801887190633722
+Mean Absolute Error: 0.4164799928770702
+R^2 Score: 0.8024131150432166
 
 
 ## Roadmap ⏳
@@ -96,16 +101,20 @@ For the model result, our model kind of does pretty well. It achieves a mean squ
 ## Screenshots 🖼️
 
 
-
+#### Model loss on every epoch iteration
 ![Model loss on every epoch iteration](https://github.com/DNXL-UMK/temp_predict/blob/main/assets/output.png)
-Model loss on every epoch iteration
 
+#### Model prediction validation
 ![Model prediction validation](https://github.com/DNXL-UMK/temp_predict/blob/main/assets/val.png)
-Model prediction validation
 
-![Whole new dataset predictions](https://github.com/DNXL-UMK/temp_predict/blob/main/assets/daily.png)
-Whole new dataset predictions
+#### Timeseries interactive plot between true value and predicted (20% validation)
+![ dataset predictions](https://github.com/DNXL-UMK/temp_predict/blob/main/assets/validation%20plotly.png)
 
+#### Testing psychic model with new dataset of year 2022
+![new data](https://github.com/DNXL-UMK/temp_predict/blob/main/assets/new_data_2022.png)
+
+#### Timeseries interactive plot between true value and predicted with new dataset of year 2022 (The plot is a bit skewed shows that climate dataset needed to be constansly trained with latest data for accuracy)
+![ plotly](https://github.com/DNXL-UMK/temp_predict/blob/main/assets/validation%20plotly.png)
 
 
 
@@ -117,7 +126,7 @@ Whole new dataset predictions
 
 3. Additionally, the model plot visualization is currently not accessible within the notebook. To view the visualization, you will need to install additional dependencies (Netron) and use a browser.🙅
 
-4. A high-level model and extensive dataset necessitated significant computational power and a GPU. At present, there is a possibility of moving from a local machine (my laptop dyin rapidly every tuning 🌡️) to a cloud environment (codespace).
+4. A high-level model and extensive dataset necessitated significant computational power and a GPU. At present, there is a possibility of moving from a local machine (my laptop dyin rapidly every hyperparameter tuning 🌡️) to a cloud environment (codespace).
 
 
 
