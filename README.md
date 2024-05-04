@@ -116,7 +116,7 @@ R^2 Score: 0.8024131150432166
 ![new data](https://github.com/DNXL-UMK/temp_predict/blob/main/assets/new_data_2022.png)
 
 #### Timeseries interactive plot between true value and predicted with new dataset of year 2022 (The plot is a bit skewed shows that climate dataset needed to be constansly trained with latest data for accuracy)
-![ plotly](https://github.com/DNXL-UMK/temp_predict/blob/main/assets/validation%20plotly.png)
+![ plotly](https://github.com/DNXL-UMK/temp_predict/blob/main/assets/plotly%20new%20data.png)
 
 
 
