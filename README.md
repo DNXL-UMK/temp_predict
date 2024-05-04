@@ -88,7 +88,9 @@ To asses the model accuracy, I use some metrics from sklearn such aslike Mean Sq
 For the model result, our model kind of does pretty well. It achieves a mean squared error on the test set of 0.280 and a mean absolute error (MAE) of 98.38% accuracy on the test dataset. Error metrics indicate that the scaler and model tuning are good, but there's always room for improvement. Actually, before getting achieving good results, I take a closer look at the opimizer(SGD etc) ,various scalers(RobustScaler etc), model tuning( several hundred epoch and thousands of thousands neurons iterations, rip laptop 😭) to see what can be done to improve the model. Is it always a good habit to revise the whole code. There is only 130 rows of temperature value prediction with 1 threshold value that differs with the actual value, as compared to the full rows of data which are 11293 (after subtracting 30 for the sequence length issue).📈
 
 Mean Squared Error: 0.2801887190633722
+
 Mean Absolute Error: 0.4164799928770702
+
 R^2 Score: 0.8024131150432166
 
 
@@ -152,16 +154,17 @@ Genrative pre-trained transformer (GPT) or LLama scheme for UMK research uses (p
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
- - [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7087890.svg)](https://doi.org/10.5281/zenodo.7087890)
- - 
- -Zippenfenig, P. (2023). Open-Meteo.com Weather API [Computer software]. Zenodo. https://doi.org/10.5281/ZENODO.7970649
+   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7087890.svg)](https://doi.org/10.5281/zenodo.7087890)
 
- -Hersbach, H., Bell, B., Berrisford, P., Biavati, G., Horányi, A., Muñoz Sabater, J., Nicolas, J., Peubey, C., Radu, R., Rozum, I., Schepers, D., Simmons, 
+   
+  Zippenfenig, P. (2023). Open-Meteo.com Weather API [Computer software]. Zenodo. https://doi.org/10.5281/ZENODO.7970649
+
+  Hersbach, H., Bell, B., Berrisford, P., Biavati, G., Horányi, A., Muñoz Sabater, J., Nicolas, J., Peubey, C., Radu, R., Rozum, I., Schepers, D., Simmons, 
   A., Soci, C., Dee, D., Thépaut, J-N. (2023). ERA5 hourly data on single levels from 1940 to present [Data set]. ECMWF. 
   https://doi.org/10.24381/cds.adbb2d47
 
- -Muñoz Sabater, J. (2019). ERA5-Land hourly data from 2001 to present [Data set]. ECMWF. https://doi.org/10.24381/CDS.E2161BAC
+  Muñoz Sabater, J. (2019). ERA5-Land hourly data from 2001 to present [Data set]. ECMWF. https://doi.org/10.24381/CDS.E2161BAC
 
- -Schimanke S., Ridal M., Le Moigne P., Berggren L., Undén P., Randriamampianina R., Andrea U., Bazile E., Bertelsen A., Brousseau P., Dahlgren P., 
+  Schimanke S., Ridal M., Le Moigne P., Berggren L., Undén P., Randriamampianina R., Andrea U., Bazile E., Bertelsen A., Brousseau P., Dahlgren P., 
   Edvinsson L., El Said A., Glinton M., Hopsch S., Isaksson L., Mladek R., Olsson E., Verrelle A., Wang Z.Q. (2021). CERRA sub-daily regional reanalysis 
   data for Europe on single levels from 1984 to present [Data set]. ECMWF. https://doi.org/10.24381/CDS.622A565A
