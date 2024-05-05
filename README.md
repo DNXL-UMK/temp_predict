@@ -1,5 +1,5 @@
 
-# Weather Temperature Prediction using LSTM
+# Climate change Prediction using LSTM
 
 ![LSTM](https://img.shields.io/badge/LSTM-model-green?style=flat)
 ![climate](https://img.shields.io/badge/climate-prediction-red?labelColor=yellow&style=flat)
@@ -10,7 +10,7 @@
                                                     
 
 ### Introduction
-This project is all about building a model that can predict daily mean climate temperatures using Long Short-Term Memory (LSTM) neural networks using 30 year worth of daily dataset form 1991 to 2021. The idea is to come up with a tool that can almost accurately forecast the temperature based on stuff like relative humidity, dew point, wind speed, and other weather parameters. Other than testing on validation data, I also test the model on new dataset of year 2022, see the screenshot. For simplicity the prediction model given name is **Psychic** 
+This project is all about building a model that can predict daily mean temperatures using Long Short-Term Memory (LSTM) neural networks using 30 year worth of daily dataset from 1991 to 2021. The idea is to come up with a tool that can almost accurately forecast the temperature based on stuff like relative humidity, dew point, wind speed, and other weather parameters. Other than testing on validation data, I also test the model on new dataset of year 2022, see the screenshot. For simplicity the prediction model given name is **Psychic** 
 
 
 Psychic documentation in the notebook comment 🎊
@@ -122,7 +122,7 @@ R^2 Score: 0.8024131150432166
 
 ## Known limitation 💣
 
-1. Currently, there is an issue with the sequence length where it deletes the last 30 rows of daily data. With the LSM model, the loss of 30 rows of data may not be significant when compared to the loss of 11,323 rows of data. There is several solution in mind but I save it for future improvement
+1. Currently, there is an issue with the sequence length where it deletes the last 30 rows of daily data. With the LSM model, the loss of 30 rows of data may not be significant when compared to the loss of 11,293 rows of data. There is several solution in mind but I save it for future improvement
 
 2. The generated requirement.txt lacks focus on a specific project environment, resulting in the inclusion of unrelated dependencies throughout the notebook. (Basically every libraries I install including Transformers, beautifulsoup4 and etc) ⚠️
 
