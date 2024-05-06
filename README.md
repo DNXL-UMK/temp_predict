@@ -22,27 +22,25 @@ Psychic documentation in the notebook comment 🎊
   - [Lesson](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#lessons-to-be-learned)
   - [Getting started](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#getting-started)
   - [Installation](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#installation)
-  - [Roadmap](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#roadmap)
+  - [Roadmap](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#roadmap-)
   - [Methodology](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#methodology)
-  - [Screenshot](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#screenshots)
-  - [Known Limitation](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#known-limitation)
-  - [Future improvement](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#future-improvement)
-  - [Authoes](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#authors)
-  - [Acknowledgement](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#acknowledgements)
+  - [Screenshot](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#screenshots-%EF%B8%8F)
+  - [Known Limitation](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#known-limitation-)
+  - [Future improvement](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#future-improvement-)
+  - [Authoes](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#contact)
+  - [Acknowledgement](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#acknowledgements-)
 
 
-## Getting Started ✅
-
-### Lessons to be Learned🧑‍🏫
+## Lessons to be Learned🧑‍🏫
 
 Informative video about LSTM
 
 
 [![LSTM](https://img.youtube.com/vi/YCzL96nL7j0/0.jpg)](https://www.youtube.com/watch?v=YCzL96nL7j0)
 
+## Getting Started ✅
 
-
-## Installation 🧑‍💻
+### Installation 🧑‍💻
 
 1. Clone the repo 
 
