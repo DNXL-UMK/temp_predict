@@ -138,7 +138,7 @@ R^2 Score: 0.8024131150432166
 
 2. Similarly, the neural network model also offers numerous scalers for the climate dataset that have not been tested in this case study. Scalers suitable for handling large and unpredictable datasets include RobustScaler, Principal Component Analysis (PCA), and other similar techniques.
    
-3. The target parameter for the model is currently set as the mean value of the daily temperature. It indicates a lack of accuracy in predicting temperature on a specific date and time. The main challenge arises from noisy data or outliers that can distort the data, which can particularly affect the performance of LSTM or any neural network.
+3. The target parameter for the model is currently set as the mean value of the daily temperature. It is because so much noisy data or outliers that can distort the dataa lack of accuracy in predicting temperature on a specific date and time. Neural network and any regression are sensitive to outliner, to remove it beforehand is important to ensure accurate reading.
 
 ## Authors 🪪
 ### contact
@@ -154,6 +154,7 @@ Genrative pre-trained transformer (GPT) or LLama scheme for UMK research uses (p
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+   
    [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7087890.svg)](https://doi.org/10.5281/zenodo.7087890)
 
    
