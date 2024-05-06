@@ -138,7 +138,7 @@ R^2 Score: 0.8024131150432166
 
 2. Similarly, the neural network model also offers numerous scalers for the climate dataset that have not been tested in this case study. Scalers suitable for handling large and unpredictable datasets include RobustScaler, Principal Component Analysis (PCA), and other similar techniques.
    
-3. The target parameter for the model is currently set as the mean value of the daily temperature. It is because so much noisy data or outliers that can distort the dataa lack of accuracy in predicting temperature on a specific date and time. Neural network and any regression are sensitive to outliner, to remove it beforehand is important to ensure accurate reading.
+3. The target parameter for the model is currently set as the mean value of the daily temperature. It is because there is so much noisy data or outliers that can distort the data lack of accuracy in predicting temperature on a specific date and time. Neural network and any regression are sensitive to outliner, to remove it beforehand is important to ensure accurate reading.
 
 ## Authors 🪪
 ### contact
