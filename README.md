@@ -19,7 +19,7 @@ Psychic documentation in the notebook comment 🎊
 ## Table of Contents 📋
 
 - [Psychic model](#jeli-climate-prediction)
-  - [Lesson](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#screenshots)
+  - [Lesson](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#lessons-to-be-learned)
   - [Getting started](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#getting-started)
   - [Installation](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#installation)
   - [Roadmap](https://github.com/DNXL-UMK/temp_predict?tab=readme-ov-file#roadmap)
@@ -94,13 +94,13 @@ Mean Absolute Error: 0.4164799928770702
 R^2 Score: 0.8024131150432166
 
 
-## Roadmap ⏳
+### Roadmap ⏳
 
 ![roadmap](https://github.com/DNXL-UMK/temp_predict/blob/main/assets/Psychic%20model1.png)
 
 
 
-## Screenshots 🖼️
+### Screenshots 🖼️
 
 
 #### Model loss on every epoch iteration
@@ -120,7 +120,7 @@ R^2 Score: 0.8024131150432166
 
 
 
-## Known limitation 💣
+### Known limitation 💣
 
 1. Currently, there is an issue with the sequence length where it deletes the last 30 rows of daily data. With the LSM model, the loss of 30 rows of data may not be significant when compared to the loss of 11,293 rows of data. There is several solution in mind but I save it for future improvement
 
@@ -133,15 +133,15 @@ R^2 Score: 0.8024131150432166
 
 
 
-## Future Improvement 🧯
+### Future Improvement 🧯
 1. There are alternative models that could be explored for this case study, including neural prophets, decision trees, and various others. For enhanced accuracy, it is advisable to conduct tests using different models and fine-tune the hyperparameters to achieve optimal results.
 
 2. Similarly, the neural network model also offers numerous scalers for the climate dataset that have not been tested in this case study. Scalers suitable for handling large and unpredictable datasets include RobustScaler, Principal Component Analysis (PCA), and other similar techniques.
    
 3. The target parameter for the model is currently set as the mean value of the daily temperature. It is because there is so much noisy data or outliers that can distort the data lack of accuracy in predicting temperature on a specific date and time. Neural network and any regression are sensitive to outliner, to remove it beforehand is important to ensure accurate reading.
 
-## Authors 🪪
-### contact
+### Authors 🪪
+#### contact
 - [@DNXL](https://www.github.com/DNXL-UMK)
 - [Linkedin](https://www.linkedin.com/in/muhddaniel/)
 
@@ -149,7 +149,7 @@ R^2 Score: 0.8024131150432166
 Genrative pre-trained transformer (GPT) or LLama scheme for UMK research uses (personal project)
 
 
-## Acknowledgements 🙇
+### Acknowledgements 🙇
 
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
