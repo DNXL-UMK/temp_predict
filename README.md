@@ -144,7 +144,7 @@ R^2 Score: 0.8024131150432166
 - [Linkedin](https://www.linkedin.com/in/muhddaniel/)
 
 📌Another project upcoming 
-Genrative pre-trained transformer (GPT) or LLama scheme for UMK research uses (personal project)
+Genrative pre-trained transformer (GPT) or LLama scheme for research uses (personal project)
 
 
 ### Acknowledgements 🙇
