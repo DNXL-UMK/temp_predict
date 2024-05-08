@@ -152,7 +152,7 @@ Genrative pre-trained transformer (GPT) or LLama scheme for research uses (perso
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
- -[Open-meteo](https://open-meteo.com/)
+ - [Open-meteo](https://open-meteo.com/)
 
    [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7087890.svg)](https://doi.org/10.5281/zenodo.7087890)
 
