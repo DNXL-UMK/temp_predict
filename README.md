@@ -83,7 +83,7 @@ To asses the model accuracy, I use some metrics from sklearn such Mean Squared E
 
 
 #### Results
-For the model result, our model kind of does pretty well. It achieves a mean squared error on the test set of 0.280 and a mean absolute error (MAE) of 98.38% accuracy on the test dataset. Error metrics indicate that the scaler and model tuning are good, but there's always room for improvement. Actually, before getting achieving good results, I take a closer look at the opimizer(SGD etc) ,various scalers(RobustScaler etc), model tuning( several hundred epoch and thousands of thousands neurons iterations, rip laptop 😭) to see what can be done to improve the model. Is it always a good habit to revise the whole code. There is only 130 rows of temperature value prediction with 1 threshold value that differs with the actual value, as compared to the full rows of data which are 11293 (after subtracting 30 for the sequence length issue).📈
+For the model result, our model kind of does pretty well. It achieves a mean squared error on the test set of 0.280 and a mean absolute error (MAE) of 98.38% accuracy on the test dataset. Error metrics indicate that the scaler and model tuning are good, but there's always room for improvement. Actually, before getting achieving good results, I take a closer look at the opimizer(SGD etc) ,various scalers(RobustScaler etc), model tuning( several hundred epoch and thousands of thousands neurons iterations) to see what can be done to improve the model. Is it always a good habit to revise the whole code. There is only 130 rows of temperature value prediction with 1 threshold value that differs with the actual value, as compared to the full rows of data which are 11293 (after subtracting 30 for the sequence length issue).📈
 
 Mean Squared Error: 0.2801887190633722
 
@@ -134,7 +134,7 @@ R^2 Score: 0.8024131150432166
 ### Future Improvement 🧯
 1. There are alternative models that could be explored for this case study, including neural prophets, decision trees, and various others. For enhanced accuracy, it is advisable to conduct tests using different models and fine-tune the hyperparameters to achieve optimal results.
 
-2. Similarly, the neural network model also offers numerous scalers for the climate dataset that have not been tested in this case study. Scalers suitable for handling large and unpredictable datasets include RobustScaler, Principal Component Analysis (PCA), and other similar techniques.
+2. Similarly, the neural network model also offers numerous scalers for the climate dataset that have not been tested in this case study. Scalers suitable for handling large and unpredictable datasets include RobustScaler and other similar techniques.
    
 3. The target parameter for the model is currently set as the mean value of the daily temperature. It is because there is so much noisy data or outliers that can distort the data lack of accuracy in predicting temperature on a specific date and time. Neural network and any regression are sensitive to outliner, to remove it beforehand is important to ensure accurate reading.
 
